@@ -2,19 +2,34 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="refresh" content="3; url=https://github.com/gigllyan">
+<meta http-equiv="refresh" content="5; url=https://github.com/gigllyan">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfólio — Aguardando servidor...</title>
+<title>Portfólio — Aguardando...</title>
 <style>
-  body { font-family: monospace; background: #07090f; color: #4fffb0;
-         display: flex; align-items: center; justify-content: center;
-         min-height: 100vh; margin: 0; flex-direction: column; gap: 1rem; text-align: center; }
+  body {
+    font-family: monospace;
+    background: #07090f;
+    color: #4fffb0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
   a { color: #38bdf8; }
+  .spin { display: inline-block; animation: s 1.2s linear infinite; }
+  @keyframes s { to { transform: rotate(360deg); } }
 </style>
 </head>
 <body>
-  <p>⟳ Servidor ainda não iniciado.</p>
-  <p style="color:#5d7a9b;font-size:.8rem">Este arquivo será substituído automaticamente pelo autostart.sh</p>
-  <a href="https://github.com/gigllyan/p">github.com/gigllyan/p</a>
+  <span class="spin" style="font-size:2rem">⟳</span>
+  <p>Servidor ainda não iniciado.</p>
+  <p style="color:#5d7a9b; font-size:.8rem">
+    Este arquivo é substituído automaticamente pelo autostart.sh quando o servidor liga.
+  </p>
+  <a href="https://github.com/gigllyan">github.com/gigllyan</a>
 </body>
 </html>
