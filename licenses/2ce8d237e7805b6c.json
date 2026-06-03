@@ -1,0 +1,11 @@
+{
+    "status": "active",
+    "domain": "localhost",
+    "plan": "basic",
+    "modules_extra": [],
+    "vip_expires": "",
+    "vip_modules": [],
+    "reason": "",
+    "server_url": "",
+    "updated_at": "2026-06-03 12:36:52"
+}
