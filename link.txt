@@ -1,1 +1,1 @@
-https://entirely-dpi-salt-high.trycloudflare.com
+https://api.trycloudflare.com
