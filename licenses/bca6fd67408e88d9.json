@@ -1,0 +1,11 @@
+{
+    "status": "active",
+    "domain": "localhost",
+    "plan": "basic",
+    "modules_extra": [],
+    "vip_expires": "",
+    "vip_modules": [],
+    "reason": "",
+    "server_url": "https:\/\/xxxx-xxxx.trycloudflare.com\/Zencripter",
+    "updated_at": "2026-06-04 21:22:27"
+}
