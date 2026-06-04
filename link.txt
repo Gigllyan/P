@@ -1,1 +1,1 @@
-https://api.trycloudflare.com
+https://adapters-ref-rating-surrey.trycloudflare.com
