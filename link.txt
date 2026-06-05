@@ -1,1 +1,1 @@
-https://api.trycloudflare.com
+https://tech-eggs-retailers-totally.trycloudflare.com
