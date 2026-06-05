@@ -1,1 +1,1 @@
-https://notes-wings-jose-assistant.trycloudflare.com
+https://api.trycloudflare.com
