@@ -1,1 +1,2 @@
-offline
+[2m  ... aguardando URL (1/12)[0m
+https://sims-told-effort-packages.trycloudflare.com
