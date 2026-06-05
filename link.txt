@@ -1,1 +1,1 @@
-https://cam-foods-emails-james.trycloudflare.com
+https://api.trycloudflare.com
