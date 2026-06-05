@@ -1,1 +1,1 @@
-https://api.trycloudflare.com
+https://database-rest-mounted-improvement.trycloudflare.com
