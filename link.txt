@@ -1,3 +1,1 @@
-[0;36m[17:02:00] Iniciando tunnel (fallback automatico)...[0m
-[0;36m[17:02:00]   [1/6] cloudflared...[0m
-https://magic-nextel-tissue-meant.trycloudflare.com
+manutencao
