@@ -1,2 +1,3 @@
-[2m  ... aguardando URL (1/12)[0m
-https://covering-clothes-humanity-identify.trycloudflare.com
+[0;36m[21:46:19] Iniciando tunnel (fallback automático)...[0m
+[0;36m[21:46:19]   [1/6] Tentando cloudflared...[0m
+https://instructional-dryer-determining-remembered.trycloudflare.com
