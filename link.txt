@@ -1,4 +1,3 @@
-[1;33m[21:47:45] Tunnel caiu (serviço: desconhecido) — tentando próximo...[0m
-[0;36m[21:47:47] Iniciando tunnel (fallback automático)...[0m
-[0;36m[21:47:47]   [1/6] Tentando cloudflared...[0m
-https://takes-zoning-accountability-symantec.trycloudflare.com
+[0;36m[21:49:37] Iniciando tunnel (fallback automático)...[0m
+[0;36m[21:49:37]   [1/6] Tentando cloudflared...[0m
+https://politicians-franchise-cooking-freebsd.trycloudflare.com
