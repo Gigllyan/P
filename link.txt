@@ -1,4 +1,4 @@
-[1;33m[09:33:16] Tunnel caiu (serviço: desconhecido) — tentando próximo...[0m
-[0;36m[09:33:17] Iniciando tunnel (fallback automático)...[0m
-[0;36m[09:33:17]   [1/6] Tentando cloudflared...[0m
-https://memphis-assignment-surface-brand.trycloudflare.com
+[1;33m[09:33:46] Tunnel caiu (serviço: cloudflared) — tentando próximo...[0m
+[0;36m[09:33:47] Iniciando tunnel (fallback automático)...[0m
+[0;36m[09:33:47]   [1/6] Tentando cloudflared...[0m
+https://dozens-creative-refer-exact.trycloudflare.com
