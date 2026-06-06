@@ -1,3 +1,1 @@
-[0;36m[10:20:02] Iniciando tunnel (fallback automático)...[0m
-[0;36m[10:20:02]   [1/6] Tentando cloudflared...[0m
-https://newark-shorter-istanbul-php.trycloudflare.com
+manutencao
