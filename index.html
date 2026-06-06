@@ -1,40 +1,35 @@
 <!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Portfólio · Gko — Offline</title>
+<title>Portfólio · Gko</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@300;400&display=swap');
-:root{--bg:#07090f;--card:#111820;--border:#1c2535;--accent:#4fffb0;--accent2:#38bdf8;--muted:#5d7a9b;--text:#dde6f5;--danger:#ef4444}
+:root{--bg:#07090f;--card:#111820;--border:#1c2535;--accent:#4fffb0;--accent2:#38bdf8;--muted:#5d7a9b;--text:#dde6f5}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Syne',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:1.5rem}
 body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(var(--border) 1px,transparent 1px),linear-gradient(90deg,var(--border) 1px,transparent 1px);background-size:48px 48px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 30%,transparent 100%);opacity:.35;pointer-events:none}
+body::after{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 60% 50% at 20% 40%,rgba(79,255,176,.07),transparent 60%),radial-gradient(ellipse 50% 40% at 80% 60%,rgba(56,189,248,.05),transparent 60%);pointer-events:none}
 .card{position:relative;z-index:1;background:var(--card);border:1px solid var(--border);border-radius:20px;padding:2.4rem 2rem;width:100%;max-width:440px;box-shadow:0 24px 64px rgba(0,0,0,.55);text-align:center}
-.badge{display:inline-flex;align-items:center;gap:.5rem;font-family:'DM Mono',monospace;font-size:.72rem;border-radius:20px;padding:.3rem .9rem;margin-bottom:1.8rem;border:1px solid;color:var(--danger);border-color:rgba(239,68,68,.3);background:rgba(239,68,68,.07)}
-.dot{width:7px;height:7px;border-radius:50%;background:var(--danger)}
+.badge{display:inline-flex;align-items:center;gap:.5rem;font-family:'DM Mono',monospace;font-size:.72rem;border-radius:20px;padding:.3rem .9rem;margin-bottom:1.8rem;border:1px solid;color:var(--accent);border-color:rgba(79,255,176,.3);background:rgba(79,255,176,.07)}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
 h1{font-size:clamp(1.8rem,6vw,2.6rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;margin-bottom:.6rem}
 h1 em{font-style:normal;background:linear-gradient(125deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.sub{font-size:.9rem;color:var(--muted);margin-bottom:1.8rem;line-height:1.6}
-.msg{background:rgba(239,68,68,.06);border:1px solid rgba(239,68,68,.15);border-radius:12px;padding:1rem;font-size:.85rem;color:#fca5a5;margin-bottom:1.8rem;line-height:1.6}
-.links{display:flex;flex-direction:column;gap:.6rem;margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid var(--border)}
-.lbl{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:.8rem}
-.lk{display:flex;align-items:center;gap:.75rem;padding:.65rem .9rem;background:#0d1117;border:1px solid var(--border);border-radius:10px;text-decoration:none;color:var(--text);font-size:.85rem;transition:border-color .2s}
-.lk:hover{border-color:var(--accent)}
-.lk-v{margin-left:auto;font-family:'DM Mono',monospace;font-size:.72rem;color:var(--muted)}
+.sub{font-size:.9rem;color:var(--muted);margin-bottom:1.4rem;line-height:1.6}
+.cf-url{display:block;font-family:'DM Mono',monospace;font-size:.76rem;color:var(--accent2);word-break:break-all;margin-bottom:1.6rem;opacity:.8}
+.btn{display:flex;align-items:center;justify-content:center;padding:.75rem 1.4rem;border-radius:10px;font-family:'Syne',sans-serif;font-size:.9rem;font-weight:700;text-decoration:none;background:var(--accent);color:var(--bg);transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(79,255,176,.25)}
+.counter{font-family:'DM Mono',monospace;font-size:.72rem;color:var(--muted);margin-top:1rem}
+.counter span{color:var(--accent);font-weight:700}
 .ts{margin-top:1.6rem;font-family:'DM Mono',monospace;font-size:.65rem;color:var(--muted);opacity:.5}
 </style></head><body>
 <div class="card">
-  <div class="badge"><span class="dot"></span> servidor offline</div>
+  <div class="badge"><span class="dot"></span> servidor online</div>
   <h1>Gko<br><em>Portfólio</em></h1>
-  <p class="sub">Desenvolvedor Full Stack · PHP · JS · Mobile</p>
-  <div class="msg">😴 O servidor está temporariamente offline.<br>Deixe uma mensagem — responderei em breve!</div>
-  <div class="links">
-    <div class="lbl">Entre em contato</div>
-    <a href="https://github.com/gigllyan" target="_blank" class="lk">
-      <span>⌥</span><span>GitHub</span><span class="lk-v">gigllyan</span>
-    </a>
-    <a href="mailto:contato@exemplo.com" class="lk">
-      <span>✉</span><span>E-mail</span><span class="lk-v">contato@exemplo.com</span>
-    </a>
-  </div>
+  <p class="sub">Redirecionando para o portfólio...</p>
+  <a class="cf-url" href="https://unknown-paint-incorporate-hobby.trycloudflare.com">https://unknown-paint-incorporate-hobby.trycloudflare.com</a>
+  <a class="btn" href="https://unknown-paint-incorporate-hobby.trycloudflare.com">↗ Acessar Portfólio</a>
+  <p class="counter">Redirecionando em <span id="n">3</span>s</p>
   <div class="ts">Atualizado: 06/06/2026 11:51</div>
 </div>
+<script>var c=3,el=document.getElementById('n'),t=setInterval(function(){c--;el.textContent=c;if(c<=0){clearInterval(t);location.replace('https://unknown-paint-incorporate-hobby.trycloudflare.com');}},1000);</script>
 </body></html>
