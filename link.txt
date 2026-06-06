@@ -1,3 +1,1 @@
-[0;36m[21:49:37] Iniciando tunnel (fallback automático)...[0m
-[0;36m[21:49:37]   [1/6] Tentando cloudflared...[0m
-https://politicians-franchise-cooking-freebsd.trycloudflare.com
+manutencao
