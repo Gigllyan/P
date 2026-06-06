@@ -1,1 +1,3 @@
-manutencao
+[0;36m[10:10:44] Iniciando tunnel (fallback automatico)...[0m
+[0;36m[10:10:44]   [1/4] cloudflared...[0m
+https://nations-immigration-supplier-handhelds.trycloudflare.com
