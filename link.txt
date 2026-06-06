@@ -1,4 +1,1 @@
-[1;33m[11:45:27] Tunnel caiu (serviço: desconhecido) — tentando próximo...[0m
-[0;36m[11:45:28] Iniciando tunnel (fallback automático)...[0m
-[0;36m[11:45:29]   [1/6] Tentando cloudflared...[0m
 https://depth-went-cloudy-serious.trycloudflare.com
