@@ -1,1 +1,4 @@
-offline
+[1;33m[01:01:42] Tunnel caiu (serviço: desconhecido) — tentando próximo...[0m
+[0;36m[01:01:43] Iniciando tunnel (fallback automático)...[0m
+[0;36m[01:01:43]   [1/6] Tentando cloudflared...[0m
+https://coordinated-participants-gas-jesus.trycloudflare.com
