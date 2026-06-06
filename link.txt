@@ -1,3 +1,3 @@
-[0;36m[10:29:47] Iniciando tunnel (fallback automático)...[0m
-[0;36m[10:29:47]   [1/6] Tentando cloudflared...[0m
-https://sold-matt-andrew-likes.trycloudflare.com
+[0;36m[11:00:54] Iniciando tunnel (fallback automático)...[0m
+[0;36m[11:00:54]   [1/6] Tentando cloudflared...[0m
+https://drug-comment-backgrounds-hawaii.trycloudflare.com
