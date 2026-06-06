@@ -1,3 +1,1 @@
-[0;36m[11:13:31] Iniciando tunnel (fallback automático)...[0m
-[0;36m[11:13:31]   [1/6] Tentando cloudflared...[0m
-https://investigators-armed-included-burlington.trycloudflare.com
+https://flush-lid-determine-well.trycloudflare.com
