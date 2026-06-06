@@ -1,3 +1,3 @@
-[0;36m[01:03:19] Iniciando tunnel (fallback automático)...[0m
-[0;36m[01:03:19]   [1/6] Tentando cloudflared...[0m
-https://florist-competitions-deeply-high.trycloudflare.com
+[0;36m[08:49:24] Iniciando tunnel (fallback automático)...[0m
+[0;36m[08:49:24]   [1/6] Tentando cloudflared...[0m
+https://ruling-thereby-lines-elements.trycloudflare.com
