@@ -1,3 +1,4 @@
-[0;36m[23:16:41] Iniciando tunnel (fallback automático)...[0m
-[0;36m[23:16:41]   [1/6] Tentando cloudflared...[0m
-https://exposed-automatic-motorola-nobody.trycloudflare.com
+[1;33m[23:39:55] Tunnel caiu (serviço: desconhecido) — tentando próximo...[0m
+[0;36m[23:39:56] Iniciando tunnel (fallback automático)...[0m
+[0;36m[23:39:56]   [1/6] Tentando cloudflared...[0m
+https://gate-tennessee-looksmart-ericsson.trycloudflare.com
