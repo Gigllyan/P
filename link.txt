@@ -1,3 +1,1 @@
-[0;36m[11:32:17] Iniciando tunnel (fallback automatico)...[0m
-[0;36m[11:32:17]   [1/6] cloudflared...[0m
-https://ins-sql-met-journalism.trycloudflare.com
+https://pulling-calculation-specially-receiving.trycloudflare.com
