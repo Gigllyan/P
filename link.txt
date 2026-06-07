@@ -1,3 +1,1 @@
-[0;36m[22:52:31] Iniciando tunnel (fallback automatico)...[0m
-[0;36m[22:52:31]   [1/6] cloudflared...[0m
-https://fields-accommodations-scout-maternity.trycloudflare.com
+offline
