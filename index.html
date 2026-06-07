@@ -1,1 +1,35 @@
-<!DOCTYPE html><html lang=pt-BR><head><meta charset=UTF-8><title>Portfolio Gko - Manutencao</title><style>body{font-family:sans-serif;background:#07090f;color:#dde6f5;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0}.card{background:#111820;border:1px solid #1c2535;border-radius:16px;padding:2rem;max-width:400px;width:100%;text-align:center}.badge{color:#f59e0b;margin-bottom:1rem}.msg{background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.2);border-radius:8px;padding:1rem;color:#fde68a;margin-bottom:1.5rem}.ts{font-size:.65rem;color:#5d7a9b;margin-top:1.5rem}</style></head><body><div class=card><div class=badge>em manutencao</div><h2>Portfolio Gko</h2><div class=msg>Site em manutencao. Voltaremos em breve!</div><div class=ts>Atualizado: 07/06/2026 18:57</div></div></body></html>
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Portfólio · Gko — Manutenção</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@300;400&display=swap');
+:root{--bg:#07090f;--card:#111820;--border:#1c2535;--accent:#f59e0b;--accent2:#38bdf8;--muted:#5d7a9b;--text:#dde6f5;--warn:#f59e0b}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Syne',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:1.5rem}
+.card{position:relative;z-index:1;background:var(--card);border:1px solid var(--border);border-radius:20px;padding:2.4rem 2rem;width:100%;max-width:460px;box-shadow:0 24px 64px rgba(0,0,0,.55);text-align:center}
+.badge{display:inline-flex;align-items:center;gap:.5rem;font-family:'DM Mono',monospace;font-size:.72rem;border-radius:20px;padding:.3rem .9rem;margin-bottom:1.8rem;border:1px solid;color:var(--warn);border-color:rgba(245,158,11,.3);background:rgba(245,158,11,.07)}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--warn);animation:pulse 1.5s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+h1{font-size:clamp(1.8rem,6vw,2.6rem);font-weight:800;letter-spacing:-.03em;line-height:1.1;margin-bottom:.6rem}
+h1 em{font-style:normal;background:linear-gradient(125deg,var(--warn),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.sub{font-size:.9rem;color:var(--muted);margin-bottom:1.8rem;line-height:1.6}
+.msg{background:rgba(245,158,11,.06);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:1.4rem;font-size:.88rem;color:#fde68a;margin-bottom:2rem;line-height:1.7}
+.links{display:flex;flex-direction:column;gap:.6rem;margin-top:1.2rem}
+.contact-link{display:flex;align-items:center;gap:.75rem;padding:.75rem .9rem;background:#0d1117;border:1px solid var(--border);border-radius:10px;text-decoration:none;color:var(--text);font-size:.88rem;transition:all .2s}
+.contact-link:hover{border-color:var(--warn);color:var(--warn);transform:translateX(4px)}
+.ts{margin-top:2rem;font-family:'DM Mono',monospace;font-size:.65rem;color:var(--muted);opacity:.5}
+</style></head><body>
+<div class="card">
+  <div class="badge"><span class="dot"></span> em manutenção</div>
+  <h1>Gko<br><em>Portfólio</em></h1>
+  <p class="sub">Desenvolvedor Full Stack · PHP · JS · Mobile</p>
+  <div class="msg">🔧 O site está passando por manutenção.<br>Voltaremos em breve com novidades!</div>
+  
+  <div class="links">
+    <div style="font-size:.75rem;font-weight:700;letter-spacing:.1em;color:var(--muted);margin-bottom:.8rem">ENTRE EM CONTATO</div>
+    
+  </div>
+  
+  <div class="ts">Atualizado: 07/06/2026 19:04</div>
+</div>
+</body></html>
