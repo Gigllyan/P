@@ -1,1 +1,3 @@
-manutencao
+[0;36m[22:38:53] Iniciando tunnel (fallback automatico)...[0m
+[0;36m[22:38:53]   [1/6] cloudflared...[0m
+https://geological-congressional-northeast-mills.trycloudflare.com
