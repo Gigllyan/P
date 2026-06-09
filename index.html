@@ -20,10 +20,17 @@ body{background:#07090f}
 <iframe id="pf-iframe" src="about:blank" title="Portfólio"></iframe>
 <script>
 (function(){
-  var base='https://biology-island-nickel-showtimes.trycloudflare.com';
+  var base='https://dpi-griffin-logo-magazines.trycloudflare.com';
+  var params=new URLSearchParams(window.location.search);
+  var page=params.get('page');
+  var project=params.get('project');
+  var path='';
   var pageMap={projects:'projects.php',admin:'admin/dashboard.php'};
-  var p=new URLSearchParams(window.location.search).get('page');
-  var path=p&&pageMap[p]?pageMap[p]:'';
+  if(project){
+    path='uploads/projects/'+encodeURIComponent(project)+'/';
+  } else if(page&&pageMap[page]){
+    path=pageMap[page];
+  }
   var iframe=document.getElementById('pf-iframe');
   var loader=document.getElementById('pf-loader');
   iframe.src=base.replace(/\/+$/,'')+(path?'/'+path:'');
